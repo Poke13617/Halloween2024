@@ -66,7 +66,7 @@ body{
  }
  .logo a{
    color:
- }
+}
  #hero{
    background-image:url(../Halloween2024/images/2151827517.jpg);
    min-height:500px;
@@ -91,7 +91,7 @@ body{
         flex-direction: column;
         align-items: center;
         .header{
-            width:80%
+            width:80%;
             margin: 0 auto;
             max-width:1150px
         }
@@ -121,4 +121,4 @@ body{
 }
  /*----End Large Screen Media Query----*/
  /*-When looking for font, use font.google.com-*/
- /*-When looking for color, use coolors.co---/*
+ /*-When looking for color, use coolors.co---*/
