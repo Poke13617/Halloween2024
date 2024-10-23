@@ -1,5 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Nosifer&family=Rubik+Wet+Paint&family=Stick&display=swap');
+
+/*--coolors pallette
+6D3416 - Brown
+31495D - Medium Navy Blue/Gray
+151F22 - blackish gray
+FDF6E2 - Cream/White
+EA4268 - Light Brown (Coffee)
+end--*/
 body{
-    background-image: linear-gradient(#000000 , #e07b00);
+    font-family: "Butcherman",;
+    background-image: linear-gradient(#6D3416 , #e07b00);
     height: 100vh;
  }
  
@@ -11,7 +22,8 @@ body{
     padding: 0;
  }
  .logo{
-    color:white;
+    font-family: "Nosifer", sans-serif;
+    color: #151f22;;
     margin: 0;
     font-size: 1.45em;
  
@@ -28,6 +40,7 @@ body{
  }
  .logo a,
  .main-nav a {
+   font-family: "Stick", sans-serif;
     padding: 10px 15px;
     text-transform: uppercase;
     text-align: center;
@@ -35,7 +48,7 @@ body{
  }
  
  .main-nav a {
-    color:#ec4e20;
+    color: #e4a268;;
     font-size: .99em;
  }
  
@@ -50,6 +63,9 @@ body{
     background-color:#ff950588;
     box-shadow: 0px 0px 14px 0px rgb(0,0,0,0.75);
     border-radius: 5px;
+ }
+ .logo a{
+   color:
  }
 
  /*--------Responsive Images-----------*/
@@ -96,3 +112,5 @@ body{
     }
 }
  /*----End Large Screen Media Query----*/
+ /*-When looking for font, use font.google.com-*/
+ /*-When looking for color, use coolors.co---/*
