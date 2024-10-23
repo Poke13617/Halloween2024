@@ -68,8 +68,12 @@ body{
    color:
  }
  #hero{
-   background-image:url(../images/2151827517.jpg);
+   background-image:url(../Halloween2024/images/2151827517.jpg);
    min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
  }
 
  /*--------Responsive Images-----------*/
