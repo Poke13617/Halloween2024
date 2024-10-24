@@ -92,7 +92,7 @@ body{
     width: 100%;
  }
 
- /*------Tablet Media Query------------*/
+ 
 
 
  /*-- CSS GRID RULES--*/
@@ -119,8 +119,12 @@ body{
    min-height:250px;background-color:#151f22
  }
  .seven{
-   min-height:250px;background-color:#bf3100
+   min-height:250px;background-color:#441105
  }
+ /*------Tablet Media Query--------------
+ ----------------------------------------
+ ----------------------------------------
+ --------------------------------------*/
  @media screen and (min-width: 769px) {
     .header,
     .main-nav {
@@ -136,6 +140,41 @@ body{
             max-width:1150px;
         }
     }
+    #hero {
+      min-height: 500px;
+    }
+
+    .hero h2 {
+      font-size: 2.1rem;
+    }
+
+    .container {
+      grid-template-columns: 1fr 1fr; 
+      grid-auto-rows: minmax(100px);
+    }
+    .one{
+      grid-column: 1/3;
+    }
+    .two{
+      grid-column: 1/2;
+      grid-row: 2/4;
+    }
+    .three{
+grid-column: 2/3;
+grid-row:2/4;
+    }
+    .four{
+      grid-column:1/3;
+    }
+    .five{
+      grid-column:1/3;
+    }
+    .six{
+      grid-column: 1/2;
+    }
+    .seven{
+      grid-column:2/3
+    }
  /*----End of Tablet Media Query-------*/
  
 
@@ -145,7 +184,6 @@ body{
     .header {
         flex-direction:row;
         justify-content:space-between;
-
     }
 }
  /*-----End Desktop Media Query--------*/
