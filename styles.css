@@ -23,7 +23,7 @@ body{
  }
  .logo{
     font-family: "Nosifer", sans-serif;
-    color: #151f22;;
+    color: #151f22;
     margin: 0;
     font-size: 1.45em;
  
@@ -65,10 +65,10 @@ body{
     border-radius: 5px;
  }
  .logo a{
-   color:
-}
+   color:#fff;
+ }
  #hero{
-   background-image:url(../Halloween2024/images/2151827517.jpg);
+   background-image:url(../images/2151827517.jpg);
    min-height:500px;
    object-fit:cover;
    background-size:cover;
@@ -76,16 +76,56 @@ body{
    background-repeat:no-repeat;
  }
 
+ .hero {
+   display:flex;
+   align-items:center;
+   justify-content: center;
+ }
+ .hero h2 {
+   color: #bf3100;
+   font-size:1.8rem;
+   text-shadow: 2px 2px 6px #fff;
+   text-align:center;
+ }
  /*--------Responsive Images-----------*/
  img{
     width: 100%;
  }
 
  /*------Tablet Media Query------------*/
+
+
+ /*-- CSS GRID RULES--*/
+ .container{
+   display:grid;
+ }
+
+ .one{
+   min-height:250px;background-color:#3c596c
+ }
+ .two{
+   min-height:250px;background-color:#e4a268
+ }
+ .three{
+   min-height:250px;background-color:#151f22
+ }
+ .four{
+   min-height:250px;background-color:#3c596c
+ }
+ .five{
+   min-height:250px;background-color:#bf3100
+ }
+ .six{
+   min-height:250px;background-color:#151f22
+ }
+ .seven{
+   min-height:250px;background-color:#bf3100
+ }
  @media screen and (min-width: 769px) {
     .header,
     .main-nav {
-        display: flex
+        display: flex;
+    }
  }
     .header{
         flex-direction: column;
@@ -93,7 +133,7 @@ body{
         .header{
             width:80%;
             margin: 0 auto;
-            max-width:1150px
+            max-width:1150px;
         }
     }
  /*----End of Tablet Media Query-------*/
@@ -118,7 +158,5 @@ body{
         justify-content:space-between;
 
     }
-}
- /*----End Large Screen Media Query----*/
- /*-When looking for font, use font.google.com-*/
- /*-When looking for color, use coolors.co---*/
+}    
+/*----End Large Screen Media Query----*/
