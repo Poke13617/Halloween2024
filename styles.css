@@ -102,39 +102,55 @@ body{
 
  .one{
    min-height:250px;background-color:#3c596c;
-   padding: 10%
-   font-size:1.8em
+   padding: 10%;
+   font-size:1.8em;
+   font-family:"Buthcherman", Sans-Serif
  }
  .block_one{
   min-height: 250px;
-  background-color:fbbf31;
+  background-color:#fbbf31;
   display:flex;
   flex-direction: column;
   font-size:1.8em
  }
  .two{
-   min-height:250px;background-color:#e4a268
+   min-height:250px;background-color:#e4a268;
+   padding: 10%;
+   font-size:1.8em;
+   font-family: "Nosifer", sans-serif;
  }
  .three{
    min-height:450px;background-image: url(./images/2151827618.jpg)
    ;background-repeat:no-repeat;
    background-position-x:left;
    background-position-y:bottom;
+   padding: 10%;
+   font-size:1.8em;
+   
  }
  .four{
-   min-height:250px;background-color:#3c596c 
+   min-height:250px;background-color:#3c596c;
+   padding: 10%;
+   font-size:1.8em;
+   font-family: "Nosifer", sans-serif;
  }
  .five{
    min-height:250px;background-color:#bf3100
+   ;padding: 10%;
+   font-size:1.8em;
  }
  .six{
    min-height:250px;background-image: url(./images/2151827499.jpg)
    ;background-repeat:no-repeat;
    background-position-x:center;
    background-position-y:bottom;
+   padding: 10%;
+   font-size:1.8em;
  }
  .seven{
-   min-height:250px;background-color:#441105
+   min-height:250px;background-color:#441105;color:gray;
+   padding: 10%;
+   font-size:1.8em;
  }
  /*------Tablet Media Query--------------
  ----------------------------------------
