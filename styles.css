@@ -101,25 +101,34 @@ body{
  }
 
  .one{
-   min-height:250px;background-color:#3c596c
+   min-height:250px;background-color:#3c596c;
+   padding: 10%
+   font-size:1.8em
+ }
+ .block_one{
+  min-height: 250px;
+  background-color:fbbf31;
+  display:flex;
+  flex-direction: column;
+  font-size:1.8em
  }
  .two{
    min-height:250px;background-color:#e4a268
  }
  .three{
-   min-height:450px;background-image: url(./images/2151827499.jpg)
+   min-height:450px;background-image: url(./images/2151827618.jpg)
    ;background-repeat:no-repeat;
-   background-position-x:center;
+   background-position-x:left;
    background-position-y:bottom;
  }
  .four{
-   min-height:250px;background-color:#3c596c
+   min-height:250px;background-color:#3c596c 
  }
  .five{
    min-height:250px;background-color:#bf3100
  }
  .six{
-   min-height:250px;background-image: url(./images/2151827618.jpg)
+   min-height:250px;background-image: url(./images/2151827499.jpg)
    ;background-repeat:no-repeat;
    background-position-x:center;
    background-position-y:bottom;
@@ -154,6 +163,15 @@ body{
       font-size: 2.1rem;
     }
 
+    .two{
+      padding:10%;
+      font-size:1.4em;
+    }
+    .two h2,
+    .two p{
+      font-family: "Amatic SC" ,sans-serif;
+      margin-bottom:1.8em;
+    }
     .container {
       grid-template-columns: 1fr 1fr; 
       grid-auto-rows: minmax(100px);
