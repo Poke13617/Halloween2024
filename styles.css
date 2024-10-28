@@ -113,7 +113,20 @@ body{
   flex-direction: column;
   font-size:1.8em
  }
+ .block_one img{
+
+  width:25%
+ }
+ .fltright{
+  float:right;
+  margin: 0 0 15px 20px
+ }
+ .fltleft{
+  float:left;
+  margin: 0 0 15px 20px;
+ }
  .two{
+  clear:all;
    min-height:250px;background-color:#e4a268;
    padding: 10%;
    font-size:1.8em;
